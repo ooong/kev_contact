@@ -59,19 +59,18 @@ html, body {
   margin: 0 auto;
 }
 
-.jumbotron {
+.jumboindex {
   height: 800px;
   max-width: 100%;
-  /*background: url("images/contact9e.jpg") center center no-repeat;*/
+  background: url("images/contact9jumbo.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
-#index {
-  background: url("images/contact9jumbo.jpg") center center no-repeat;
-}
-
-#contact {
-  background: url("images/contact94jumbo.jpg") center center no-repeat;
+.jumbocontact {
+  height: 800px;
+  max-width: 100%;
+  background: url("images/contact94jumbo.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 body {
