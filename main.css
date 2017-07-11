@@ -48,13 +48,11 @@ table {
   border-spacing: 0;
 }
 
-
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
-
 
 .container {
   max-width: 940px;
@@ -64,8 +62,16 @@ html, body {
 .jumbotron {
   height: 800px;
   max-width: 100%;
-  background: url("images/contact9e.jpg") center center no-repeat;
+  /*background: url("images/contact9e.jpg") center center no-repeat;*/
   background-size: cover;
+}
+
+#index {
+  background: url("images/contact9jumbo.jpg") center center no-repeat;
+}
+
+#contact {
+  background: url("images/contact94jumbo.jpg") center center no-repeat;
 }
 
 body {
@@ -97,52 +103,10 @@ h2 {
 h3 {
   padding-left: 35px;
 }
-/*
-.header {
-  margin: 0;
-  background-color: #b3b3e6;
-}
 
-.nav {
-  padding: 20px 0;
-}
-
-.nav li {
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  display: inline;
-  margin: 10px;
-}
-
-.main {
-  position: relative;
-  top: 180px;
-  text-align: center;
-}
-
-h1 {
-  color: #ff8533;
-  font-weight: 100;
-  font-size: 60px;
-  top: 30px;
-  text-align: left;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  padding-top: 50px;
-  padding-left: 30px;
-}
-
-.main h2 {
-  color: white;
-  font-weight: ;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}*/
-
-.contact {
-    padding-top: 500px;
+.button {
+  padding-top: 500px;
+  padding-left: 25px;
 }
 
 ul li {
@@ -150,6 +114,7 @@ ul li {
   font-size: 30px;
   margin: 15px;
 }
+
 
 /*RESPONSIVE IMAGE GALLERY*/
 
@@ -162,9 +127,9 @@ div.gallery {
 }*/
 
 div.gallery:hover {
-    border: 1px solid goldenrod;
+    border: 1px solid #0066ff;
     opacity: 0.8;
-    background-color: goldenrod;
+    background-color: #0066ff;
 }
 
 div.gallery img {
@@ -205,4 +170,3 @@ div.desc {
     display: table;
     clear: both;
 }
-
